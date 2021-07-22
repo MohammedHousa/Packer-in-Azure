@@ -1,4 +1,4 @@
-﻿# Install Azure CLI on Windows https://docs.microsoft.com/en-us/azure/virtual-machines/linux/build-image-with-packer
+﻿# Install Azure CLI on Windows https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
 # Install Packer https://www.packer.io/downloads
 # Create a resource group 
 az group create -n myResourceGroup -l eastus 
