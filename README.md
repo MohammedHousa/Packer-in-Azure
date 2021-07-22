@@ -1,4 +1,4 @@
-# Packer-to-create-Linux-virtual-machine-images-in-Azure
+# Azure Custom Image with Packer & Terraform
 
 1. Create custom image in Azure 
 2. Create VM from packer image with Azuer CLI
