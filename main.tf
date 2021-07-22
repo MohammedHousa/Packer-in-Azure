@@ -89,8 +89,8 @@ resource "azurerm_network_interface" "main" {
 }
 
 # Create a new Virtual Machine based on the custom Image
-resource "azurerm_virtual_machine" "myVM" {
-  name                             = "myVM"
+resource "azurerm_virtual_machine" "myVM2" {
+  name                             = "myVM2"
   location                         = data.azurerm_resource_group.main.location
   resource_group_name              = data.azurerm_resource_group.main.name
   network_interface_ids            = ["${azurerm_network_interface.main.id}"]
@@ -103,7 +103,7 @@ resource "azurerm_virtual_machine" "myVM" {
   }
 
   storage_os_disk {
-    name              = "myVM-OS"
+    name              = "myVM2-OS"
     caching           = "ReadWrite"
     create_option     = "FromImage"
     managed_disk_type = "Standard_LRS"
