@@ -1,9 +1,9 @@
 # Configure the Microsoft Azure Provider
 provider "azurerm" {
-  subscription_id = "68715601-ec3f-408a-ac35-b9af58e67ee9"
-  client_id       = "0c295c22-d45c-43a0-b09f-5d665dd8eed7"
-  client_secret   = "zT-fFlsgassgdsicZhHBsOirxs.r0Q91W_"
-  tenant_id       = "98006a36-aefe-4267-8f94-16a5b5a4c16a"
+  subscription_id = "XXXXXXXX"
+  client_id       = "XXXXXXXX"
+  client_secret   = "XXXXXXXX"
+  tenant_id       = "XXXXXXXX"
 
   features {}
 }
@@ -24,7 +24,7 @@ data "azurerm_image" "main" {
 }
 
 output "image_id" {
-  value = "/subscriptions/98006a36-aefe-4267-8f94-16a5b5a4c16a/resourceGroups/RG-EASTUS-SPT-PLATFORM/providers/Microsoft.Compute/images/myPackerImage"
+  value = "/subscriptions/XXXXXXXX/resourceGroups/RG-EASTUS-SPT-PLATFORM/providers/Microsoft.Compute/images/myPackerImage"
 }
 
 # Create a Network Security Group with some rules
