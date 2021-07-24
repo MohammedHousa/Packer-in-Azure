@@ -5,6 +5,6 @@ GitHub repo: https://github.com/MohammedHousa/Packer-in-Azure
 
 Tutorials:
 1. How to create a custom image in Azure using Packer
-2. Create VM from packer image with Azuer CLI
+2. Create VM from packer image with Azure CLI
 3. Create VM from packer image with Terraform
 
